@@ -9,7 +9,7 @@
     "pageSize": "{maxrecords}",
     "sortBy": "publishedAt",
     "language": "en",
-    "apiKey": "0cc481cc70794e0ead5de7732adc7128"
+    "apiKey": "******"
   },
   "items_path": "articles",
   "mappings": {
@@ -19,3 +19,4 @@
     "outlet": "source.name"
   }
 }
+
