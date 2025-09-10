@@ -1,14 +1,4 @@
-#!/usr/bin/env python3
-"""29_api_pluggable_google.py
-Google Custom Search + DeepSeekAPI
-- 从CSV或XLSX文件读取CEO信息
-- 固定搜索时间范围：1995-2025
-- 自动在 query 加年份
-- 按发布时间排序
-- 输出所有找到的项目，不过滤
-- CSV列顺序：date, ceo, company, office_level, candidate_guess, headline, outlet, url
-- 每100个CEO保存一个文件
-"""
+
 
 from __future__ import annotations
 import argparse
@@ -23,7 +13,6 @@ from datetime import datetime
 from typing import Any, Dict, List, Optional, Tuple
 import pandas as pd
 
-# 支持术语列表
 ENDORSEMENT_TERMS = [
     "endorses", "endorsed",  "throws support", "throws his support",
     "throws her support", "urged voters to back", "urged voters to support", "endorsing"
@@ -329,4 +318,5 @@ def main(argv=None):
     process_ceos(ceos, backend, args.maxrecords, args.output, args.chunk_size)
 
 if __name__ == '__main__':
+
     main()
