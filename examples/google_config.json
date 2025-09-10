@@ -3,8 +3,8 @@
   "method": "GET",
   "headers": {},
   "params": {
-    "key": "AIzaSyDBVBxKHJgVAZjxR3ZSO69JmJqv1zVMtDA",
-    "cx": "f4593ca51042e47f9",
+    "key": "****",
+    "cx": "****",
     "q": "{query}",
     "num": "{maxrecords}",
     "start": "1"
@@ -17,4 +17,5 @@
   "content": "snippet"
 }
 }
+
 
