@@ -1,0 +1,21 @@
+{
+  "url": "https://newsapi.org/v2/everything",
+  "method": "GET",
+  "headers": {},
+  "params": {
+    "q": "{query}",
+    "from": "{since}",
+    "to": "{until}",
+    "pageSize": "{maxrecords}",
+    "sortBy": "publishedAt",
+    "language": "en",
+    "apiKey": "0cc481cc70794e0ead5de7732adc7128"
+  },
+  "items_path": "articles",
+  "mappings": {
+    "headline": "title",
+    "url": "url",
+    "date": "publishedAt",
+    "outlet": "source.name"
+  }
+}
